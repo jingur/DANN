@@ -1,0 +1,2 @@
+#  run  the script for saving the predictions
+python3 dann_test.py --data_dir $1 --target $2 --pred_path $3 --resume_mnistm ./save_models/digits/dann_target_mnistm.pth --resume_svhn ./save_models/digits/dann_target_svhn.pth --resume_usps ./save_models/digits/dann_target_usps.pth --model_type dann

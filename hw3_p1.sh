@@ -1,0 +1,1 @@
+python3 vae_inference.py --out_path $1
